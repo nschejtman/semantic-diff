@@ -151,7 +151,7 @@ object SemanticDiffApp {
       val leftDiff  = leftModel.difference(rightModel)
       val rightDiff = rightModel.difference(leftModel)
       if (!leftDiff.isEmpty) printModel(leftDiff, "Left diff")
-      if (!rightDiff.isEmpty) printModel(leftDiff, "Right diff")
+      if (!rightDiff.isEmpty) printModel(rightDiff, "Right diff")
     }
   }
 
